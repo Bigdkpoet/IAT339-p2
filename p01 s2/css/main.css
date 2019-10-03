@@ -172,7 +172,7 @@ input:hover{
 }
 
 input[type="text"]:focus{
-	background-color: rgb(100,1,10)
+	background-color: #ffe6e6;
 }
 
 a img

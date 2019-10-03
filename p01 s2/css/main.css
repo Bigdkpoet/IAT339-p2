@@ -127,6 +127,29 @@ a:focus{
 	transition: background-color 0.5s ease-out;
 }
 
+
+
+button {
+		background-color: #db1e12;
+		color: white;
+	transition: color 0.5s;
+	text-align: center;
+	align-items: center;
+}
+button:active, button:hover, button:focus {
+	color: rgb(50,0,0);
+	text-decoration: none;
+}
+
+button:focus{
+	color: rgb(100,0,20);
+	text-decoration: none;
+	background-color: #db1e12;
+	transition: background-color 0.5s ease-out;
+
+}
+
+
 code, samp {
 	display: block;
 	background-color: rgb(230,230,230);

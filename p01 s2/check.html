@@ -138,81 +138,92 @@
   <!-- CODE -->
   <section>
     <h2>Code</h2>
-    <pre><code>&lt;section id="page_template"&gt;
-  &lt;h2&gt;Checkout&lt;/h2&gt;
-  &lt;h3&gt;Payment Information&lt;/h3&gt;
+  <code>&lt;section id="page_template"&gt;
+  <br>&lt;h2&gt;Checkout&lt;/h2&gt;
+  <br>&lt;h3&gt;Payment Information&lt;/h3&gt;
 
-  &lt;div class="payment-container"&gt;
+<br>  &lt;div class="payment-container"&gt;
 
-    &lt;section class="payment-form"&gt;
-      &lt;h4&gt;Secure Payment&lt;/h4&gt;
-        &lt;form action="#" method="post"&gt;
-        &lt;label&gt;Card Type&lt;/label&gt;
-        &lt;input type="radio" name="card_type" value="visa" id="visa"/&gt; Visa
-        &lt;input type="radio" name="card_type" value="mastercard" id="mastercard"/&gt; Mastercard
+  <br>  &lt;section class="payment-form"&gt;
+  <br>    &lt;h4&gt;Secure Payment&lt;/h4&gt;
+  <br>      &lt;form action="#" method="post"&gt;
+      <br>  &lt;label&gt;Card Type&lt;/label&gt;
+        <br>&lt;input type="radio" name="card_type" value="visa" id="visa"/&gt; Visa
+        <br>&lt;input type="radio" name="card_type" value="mastercard" id="mastercard"/&gt; Mastercard
 
-        &lt;label for="card_name"&gt;Name on Card&lt;/label&gt;
-        &lt;input type="text" name="card_name" id="card_name" placeholder="Your Name"/&gt;
+      <br>  &lt;label for="card_name"&gt;Name on Card&lt;/label&gt;
+    <br>    &lt;input type="text" name="card_name" id="card_name" placeholder="Your Name"/&gt;
 
-        &lt;label for="card_number"&gt;Card Number&lt;/label&gt;
-        &lt;input type="text" name="card_number" id="card_number" placeholder="xxxxxxxxxxxx" maxlength="16"/&gt;
+    <br>    &lt;label for="card_number"&gt;Card Number&lt;/label&gt;
+    <br>    &lt;input type="text" name="card_number" id="card_number" placeholder="xxxxxxxxxxxx" maxlength="16"/&gt;
 
-        &lt;label for="expiry"&gt;Expiry Date (MM/YY)&lt;/label&gt;
-        &lt;input type="text" name="expiry" id="expiry" placeholder="MM/YY" maxlength="5"/&gt;
+      <br>  &lt;label for="expiry"&gt;Expiry Date (MM/YY)&lt;/label&gt;
+    <br>    &lt;input type="text" name="expiry" id="expiry" placeholder="MM/YY" maxlength="5"/&gt;
 
-        &lt;label for="security_code"&gt;Security Code&lt;/label&gt;
-        &lt;input type="text" name="security_code" id="security_code" placeholder="xxx" maxlength="5"/&gt;
+    <br>    &lt;label for="security_code"&gt;Security Code&lt;/label&gt;
+  <br>      &lt;input type="text" name="security_code" id="security_code" placeholder="xxx" maxlength="5"/&gt;
 
-        &lt;label for="phone_number"&gt;Phone Number&lt;/label&gt;
-        &lt;input type="text" name="phone_number" id="phone_number" placeholder="1234567890"/&gt;
-      &lt;/form&gt;
-    &lt;/section&gt;
+  <br>      &lt;label for="phone_number"&gt;Phone Number&lt;/label&gt;
+  <br>      &lt;input type="text" name="phone_number" id="phone_number" placeholder="1234567890"/&gt;
+  <br>    &lt;/form&gt;
+  <br>  &lt;/section&gt;
 
-    &lt;section class="payment-form"&gt;
-    &lt;h4&gt;Billing Address&lt;/h4&gt;
-      &lt;form action="#" method="post"&gt;
-        &lt;input type="checkbox" name="billing_address" id="billing_address"/&gt; Use my shipping address
+<br>    &lt;section class="payment-form"&gt;
+  <br>  &lt;h4&gt;Billing Address&lt;/h4&gt;
+  <br>    &lt;form action="#" method="post"&gt;
+      <br>  &lt;input type="checkbox" name="billing_address" id="billing_address"/&gt; Use my shipping address
 
-        &lt;p&gt;Your Name&lt;br /&gt; 1234 Avenue&lt;br /&gt; City, Province&lt;br /&gt; A1B 2C3&lt;/p&gt;
+    <br>    &lt;p&gt;Your Name&lt;br /&gt; 1234 Avenue&lt;br /&gt; City, Province&lt;br /&gt; A1B 2C3&lt;/p&gt;
 
-        &lt;label for="first_name"&gt;First Name&lt;/label&gt;
-        &lt;input type="text" name="first_name" id="first_name" placeholder="First Name"/&gt;
+    <br>    &lt;label for="first_name"&gt;First Name&lt;/label&gt;
+    <br>    &lt;input type="text" name="first_name" id="first_name" placeholder="First Name"/&gt;
 
-        &lt;label for="last_name"&gt;Last Name&lt;/label&gt;
-        &lt;input type="text" name="last_name" id="last_name" placeholder="Last Name"/&gt;
+    <br>    &lt;label for="last_name"&gt;Last Name&lt;/label&gt;
+    <br>    &lt;input type="text" name="last_name" id="last_name" placeholder="Last Name"/&gt;
 
-        &lt;label for="street_number"&gt;Street Number&lt;/label&gt;
-        &lt;input type="text" name="street_number" id="street_number" placeholder="1234 Avenue"/&gt;
+    <br>    &lt;label for="street_number"&gt;Street Number&lt;/label&gt;
+      <br>  &lt;input type="text" name="street_number" id="street_number" placeholder="1234 Avenue"/&gt;
 
-        &lt;label for="country"&gt;Country&lt;/label&gt;
-        &lt;input type="text" name="country" id="country" placeholder="Country"/&gt;
+      <br>  &lt;label for="country"&gt;Country&lt;/label&gt;
+      <br>  &lt;input type="text" name="country" id="country" placeholder="Country"/&gt;
 
-        &lt;label for="province"&gt;Province&lt;/label&gt;
-        &lt;input type="text" name="province" id="province" placeholder="Province"/&gt;
+      <br>  &lt;label for="province"&gt;Province&lt;/label&gt;
+      <br>  &lt;input type="text" name="province" id="province" placeholder="Province"/&gt;
 
-        &lt;label for="postal_code"&gt;Postal Code&lt;/label&gt;
-        &lt;input type="text" name="postal_code" id="postal_code" placeholder="A1B2C3" maxlength="6"/&gt;
-      &lt;/form&gt;
-    &lt;/section&gt;
+      <br>  &lt;label for="postal_code"&gt;Postal Code&lt;/label&gt;
+      <br>  &lt;input type="text" name="postal_code" id="postal_code" placeholder="A1B2C3" maxlength="6"/&gt;
+  <br>    &lt;/form&gt;
+  <br>  &lt;/section&gt;
 
-    &lt;section class="cart-total"&gt;
-      &lt;h2&gt;Summary: 4 Items&lt;/h2&gt;
-      &lt;ol id="total"&gt;
-        &lt;li&gt;Subtotal: &#36;1,500&lt;/li&gt;
-        &lt;li&gt;Tax: &#36;187.5&lt;/li&gt;
-        &lt;li&gt;Shipping: Free&lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;p&gt;Estimated Total: &#36;1,687.5&lt;/p&gt;
-      &lt;button name="checkout" class="submit-button"&gt;Checkout&lt;/button&gt;
-      &lt;button name="back" class="reset-button" onclick="window.location.href='cart.html'"&gt;Back to Cart&lt;/button&gt;
-    &lt;/section&gt;
-  &lt;/div&gt;
-&lt;/section&gt;</code></pre>
+  <br>  &lt;section class="cart-total"&gt;
+    <br>  &lt;h2&gt;Summary: 4 Items&lt;/h2&gt;
+  <br>    &lt;ol id="total"&gt;
+    <br>    &lt;li&gt;Subtotal: &#36;1,500&lt;/li&gt;
+    <br>    &lt;li&gt;Tax: &#36;187.5&lt;/li&gt;
+    <br>    &lt;li&gt;Shipping: Free&lt;/li&gt;
+    <br>  &lt;/ol&gt;
+    <br>  &lt;p&gt;Estimated Total: &#36;1,687.5&lt;/p&gt;
+  <br>    &lt;button name="checkout" class="submit-button"&gt;Checkout&lt;/button&gt;
+  <br>    &lt;button name="back" class="reset-button" onclick="window.location.href='cart.html'"&gt;Back to Cart&lt;/button&gt;
+  <br>  &lt;/section&gt;
+<br>  &lt;/div&gt;
+&lt;/section&gt;</code>
   </section> <!-- //payment section -->
 
-  <!-- CITATIONS SECTION // -->
+  <div class="box-item-text">
+    <h3>Citations</h3>
+    <h4>Image</h4>
+    <p>CD projecket Red. (n.d.). The shop link of Cyberpunk2077. Retrieved from https://us.store.cdprojektred.com/eng_m_Shop-Now_Game_CYBERPUNK-2077-178.html
+    <p>CD projecket Red. (n.d.). The shop link of The Witcher 3. Retrieved from https://us.store.cdprojektred.com/eng_m_Shop-Now_Game_THE-WITCHER-175.html</p>
+    <p>CD projecket Red. (n.d.). The shop link of The Gwent. Retrieved from https://us.store.cdprojektred.com/data/include/cms/bannery/bannery-worlds-mainpage-newGWENT.png</p>
+
+  </div>
+
+
 
 
 </body>
+
+
 
 </html>
